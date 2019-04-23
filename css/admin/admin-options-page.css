@@ -1,0 +1,9 @@
+/* //rplc: wcod */
+.wcod_error_message {
+	display: block;
+	font-weight: bold;
+	color: #e74c3c;
+	margin-top: 10px;
+	font-size: 18px;
+}
+

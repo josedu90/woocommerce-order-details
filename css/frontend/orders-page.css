@@ -1,0 +1,125 @@
+.wcod_single_product_data 
+{
+	width: 50%;
+	float: left;
+    border-right: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+	margin-top: -1px;
+	margin-left: -1px;
+	padding: 10px;
+}
+.wcod_last_product
+{
+	border-bottom: 1px solid #eaeaea;
+}
+.wcod_no_padding
+{
+	padding: 0px;
+}
+/* .wcod_border_left
+{
+	border-left: 1px solid #eaeaea; 
+} */
+.wcod_order_data_container {
+	border: 1px solid #dedede;
+	overflow: hidden;
+}
+.wcod_last_element, .wcod_first_element
+{
+	 border-right: none;
+}
+.wcod_border_top
+{
+	border-top: 1px solid #eaeaea;
+}
+.wcod_order_data_header
+{
+	float: left;
+	width: 100%;
+	border: 1px solid #eaeaea;
+	background: #f3f3f3;
+	padding: 5px;
+}
+.wcod_order_data_footer
+{
+	margin-top: -1px;
+	float: left;
+	width: 100%;
+	border: 1px solid #eaeaea;
+	background: #f3f3f3;
+	padding: 5px;
+}
+.wcod_detail_row
+{
+	padding-left: 10px;
+	display:block;
+	clear:both;
+}
+.wcod_totals_header, .wcod_shipping_header
+{
+	margin-top: -1px;
+	float: left;
+	width: 100%;
+	/* border: 1px solid #eaeaea; */
+	background: #f3f3f3;
+	padding: 5px;
+}
+.wcod_totals_header
+{
+	margin-top: 20px;
+}
+table th, table td {
+    border: none;
+}
+.woocommerce table.shop_table td.wcod_order_data
+{
+	border-top:none;	
+	display: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.wcod_svg
+{
+	display:none;
+}
+.wcod_expand_icon 
+{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.wcod_strong
+{
+	color: #666;
+	font-weight:bold;
+}
+.wcod_single_product_image, .woocommerce-placeholder
+{
+	margin-right: 10px;
+	float: left;
+}
+.wcod_tracking_shipping_icon
+{
+	width: 16px;
+	height: 16px;
+	margin-top: -3px;
+}
+.wcod_meta_container 
+{
+	display: block;
+	clear: both;
+	margin-top: 20px;
+	float: left;
+}
+.wcod_price_container, .wcod_product_name_cotaniner
+{
+	/* display: inline-block; */
+}
+.wcod_product_data_container
+{
+	display: inline-block;
+}
+.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number {
+	min-width: 90px !important;
+}

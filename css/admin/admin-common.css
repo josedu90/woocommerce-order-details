@@ -1,0 +1,79 @@
+/* //rplc: wcod */
+.white-box 
+{
+	background-color: white;
+	/* box-shadow: 2px 5px 10px; */
+	box-shadow: 1px 1px 2px;
+	padding: 15px 15px 15px 15px;
+	overflow: auto;
+}
+.wcod_inline_block
+{
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 3px;	
+}
+label
+{
+	display:block;
+	clear:both;
+	font-weight:bold;
+}
+.wcod_company_option_description
+{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.wcod_general_option_description
+{
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	margin-right: 20px;
+}
+.wcod_no_margin_top
+{
+	margin-top: 0px !important;
+}
+.wcod_section_title 
+{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	padding: 7px;
+	color: white;
+	background: #efefef;
+	color: #96588a;
+	padding: 10px;
+	border-radius: 3px;
+}
+.wcod_checkbox_container
+{
+	display: inline-block;
+	width: 260px;
+	font-weight: bold;
+}
+h3 
+{
+	font-size: 1.8em;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: #96588a;
+}
+/* Default UI Override */
+.wp-core-ui .button-primary:hover {
+	background: #C9A3C1 none repeat scroll 0 0;
+	border-color: #C9A3C1;
+	box-shadow: none;
+	font-weight: bold;
+}
+.wp-core-ui .button-primary, .wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus {
+	background: #a46497 none repeat scroll 0 0;
+	border-color: #a46497;
+	box-shadow: none;
+	font-weight: bold;
+	text-shadow: none;
+}

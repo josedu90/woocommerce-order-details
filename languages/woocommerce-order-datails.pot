@@ -1,0 +1,244 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Order Details\n"
+"POT-Creation-Date: 2019-01-02 12:40+0100\n"
+"PO-Revision-Date: 2018-10-13 14:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-order-details.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/admin/WCOD_ActivationPage.php:39
+#: classes/admin/WCOD_ActivationPage.php:40
+#: classes/admin/WCOD_ActivationPage.php:87
+msgid " Activator"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:67
+msgid "Purchase code is invalid!"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:68
+msgid "Buyer name is invalid!"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:69
+msgid "Item id is invalid!"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:70
+msgid ""
+"Max number of domains reached! You have to purchase a new license. The "
+"current license has been activated in the following domains: "
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:71
+#: classes/admin/WCOD_ActivationPage.php:156
+msgid "Verifing, please wait..."
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:72
+msgid ""
+"There was an error while verifing the code. Please retry in few minutes!"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:73
+msgid "Activation successfully completed!"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:74
+msgid "Buyer and Purchase code fields must be filled!"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:116
+msgid "Activation"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:139
+msgid ""
+"The plugin can be activate in only <strong>two</strong> domains and they "
+"cannot be unregistered. Please enter the following data and hit the "
+"activation button"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:145
+msgid "Buyer"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:146
+msgid "Insert the Envato username used to purchase the plugin."
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:147
+msgid "Example: vanquish"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:150
+msgid "Purchase code"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:151
+msgid ""
+"Insert the purchase code. It can be downloaded from your CodeCanyon "
+"\"Downloads\" profile page."
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:152
+msgid "Example: 7d7c3rt8-f512-227c-8c98-fc53c3b212fe"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:154
+msgid "Activate"
+msgstr ""
+
+#: classes/admin/WCOD_ActivationPage.php:159
+msgid "The plugin has been successfully activated!"
+msgstr ""
+
+#: classes/admin/WCOD_OptionsPage.php:32
+msgid "Display"
+msgstr ""
+
+#: classes/admin/WCOD_OptionsPage.php:34
+msgid "Product image preview"
+msgstr ""
+
+#: classes/admin/WCOD_OptionsPage.php:35
+#, php-format
+msgid ""
+"Leave both empty for default size ( default value is the "
+"<i>woocommerce_thumbnail</i> size, you can read more <a href='%s' "
+"target='_blank'>here</a> ). The <a href='%s' target='_blank'> get_image()</"
+"a> method will try (if possible) to resize the image according to its "
+"native ratio. It works better with square sizes (Example: 16x16, 24x24, "
+"32x32, 64x64)."
+msgstr ""
+
+#: classes/admin/WCOD_OptionsPage.php:37
+msgid "Width"
+msgstr ""
+
+#: classes/admin/WCOD_OptionsPage.php:42
+msgid "Height"
+msgstr ""
+
+#: classes/admin/WCOD_OptionsPage.php:49
+msgid "Save Changes"
+msgstr ""
+
+#: classes/com/WCOD_Html.php:14 classes/com/WCOD_Html.php:19
+#: classes/com/WCOD_Shortcode.php:19
+msgid "Please insert a valid order id!"
+msgstr ""
+
+#: classes/com/WCOD_Shortcode.php:20
+msgid "Loading, please wait..."
+msgstr ""
+
+#: classes/com/WCOD_Shortcode.php:34
+msgid "View"
+msgstr ""
+
+#: templates/frontend/orders-table.php:9
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: templates/frontend/orders-table.php:22
+msgid "Status: "
+msgstr ""
+
+#: templates/frontend/orders-table.php:30
+msgid "On: "
+msgstr ""
+
+#: templates/frontend/orders-table.php:65
+#: templates/frontend/orders-table.php:92
+#: templates/frontend/orders-table.php:100
+#: templates/frontend/orders-table.php:131
+msgid "Subtotal: "
+msgstr ""
+
+#: templates/frontend/orders-table.php:66
+#: templates/frontend/orders-table.php:93
+#: templates/frontend/orders-table.php:101
+#: templates/frontend/orders-table.php:132
+msgid "Taxes: "
+msgstr ""
+
+#: templates/frontend/orders-table.php:67
+#: templates/frontend/orders-table.php:94
+#: templates/frontend/orders-table.php:102
+#: templates/frontend/orders-table.php:136
+msgid "Total: "
+msgstr ""
+
+#: templates/frontend/orders-table.php:89
+msgid "Shippings"
+msgstr ""
+
+#: templates/frontend/orders-table.php:91
+msgid "Shipping method: "
+msgstr ""
+
+#: templates/frontend/orders-table.php:98
+msgid "Products"
+msgstr ""
+
+#: templates/frontend/orders-table.php:108
+msgid "Fees"
+msgstr ""
+
+#: templates/frontend/orders-table.php:119
+msgid "Refunds"
+msgstr ""
+
+#: templates/frontend/orders-table.php:123
+msgid "Refund"
+msgstr ""
+
+#: templates/frontend/orders-table.php:129
+msgid "Totals"
+msgstr ""
+
+#: templates/frontend/orders-table.php:134
+msgid "Discount: "
+msgstr ""
+
+#: woocommerce-order-details.php:43
+#, php-format
+msgid ""
+"To complete the <span style=\"color:#96588a; font-weight:bold;\">%s</span> "
+"plugin activation, you must verify your purchase license. Click <a href=\"%s"
+"\">here</a> to verify it."
+msgstr ""
+
+#: woocommerce-order-details.php:116
+msgid "WooCommerce Order Details - Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: woocommerce-order-details.php:116
+msgid "WooCommerce Order Details"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Enhances the My Acounts -> Orders page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lagudi Domenico"
+msgstr ""
